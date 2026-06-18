@@ -1,0 +1,19 @@
+# Secretos
+.env
+
+# Entorno virtual
+.venv/
+
+# PDFs (ficheros grandes)
+data/documents/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.cursor/
+
+# uv
+.uv/
