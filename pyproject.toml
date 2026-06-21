@@ -7,7 +7,9 @@ authors = [
     { name = "David Ruiz", email = "david.ruizcasares@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic-settings>=2.14.2",
+]
 
 [project.scripts]
 rag-virtual-assistant = "rag_virtual_assistant:main"
