@@ -8,6 +8,9 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "openai>=1.0.0",
+    "langgraph>=1.2.6",
+    "langsmith>=0.9.1",
     "pydantic-settings>=2.14.2",
 ]
 
